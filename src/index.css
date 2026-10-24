@@ -1,0 +1,30 @@
+body {
+  background: #f4f6fb;
+}
+
+.app-navbar {
+  background: linear-gradient(90deg, #1e3a8a, #3b82f6);
+}
+
+.app-navbar .nav-link {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.app-navbar .nav-link:hover,
+.app-navbar .nav-link.active {
+  color: #fff;
+}
+
+.search-box {
+  max-width: 280px;
+}
+
+.emp-card {
+  border: 0;
+  border-left: 4px solid #3b82f6;
+  transition: transform 0.15s ease;
+}
+
+.emp-card:hover {
+  transform: translateY(-3px);
+}
